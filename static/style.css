@@ -54,6 +54,7 @@ body{
 }
 #main #right h1{
     font-family: var(--font-title);
+    color: #a0112b;
     text-align: center;
     font-size: 35px;
     position:absolute;
