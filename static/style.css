@@ -2,7 +2,7 @@ body{
     font-family: var(--font-title);
     font-size: 16px;
     width: 1855px;
-    height: 5000px;
+    height: 2800px;
     margin: 0px  auto;
 }
 #menutop{
@@ -10,6 +10,7 @@ body{
     background: white;
     height: 95px;
     width: 1855px;
+    position: fixed;
 }
 #menutop #content{
     height: 70px;
@@ -20,9 +21,8 @@ body{
 }
 #banner{
     height: auto;
-    width: auto;
+    width: 1855px;
 }
-
 #menutop ul{
     margin: 0px;
     padding: 0px;
@@ -57,8 +57,6 @@ body{
     color: #a0112b;
     text-align: center;
     font-size: 35px;
-    
-   
 }
 #boxbig {
     width: 1855px;
@@ -66,11 +64,7 @@ body{
     display: flex;
     text-align: center;
     align-items: center;
-    justify-content: center;
-    
-    
-    
-    
+    justify-content: center;   
 }
 
 #boxbig #boxsmall{
@@ -78,18 +72,15 @@ body{
     height: 280px;
     display: flex;
     text-align: center;
-    justify-content: center;
-    
+    justify-content: center; 
 }
 .box1{
     width: 250px;
     height: 250px;
     text-align: center;
     flex: content;
-    
-
-    
-
+    border-radius: 0px;
+    border-color: #a0112b;
 }
 .box2{
     width: 276px;
@@ -128,8 +119,6 @@ body{
     width: 250px;
     justify-content: center;
     text-align: center;
-
-    
 }
 #san-pham-content1 #content{
     width: 250px;
@@ -140,20 +129,20 @@ body{
     width: 250px;
     justify-content: center;
     text-align: center;
-
-
 }
 #san-pham-content3{
     height: 250px;
     width: 250px;
     justify-content: center;
     text-align: center;
-
-
 }
-
 #san-pham2{
     height: 290px;
     width: 1855px;
 }
-
+#footer {
+    background-color: #a0112b;
+    height: 300px;
+    width: 1855px;
+    text-align: left;
+}
