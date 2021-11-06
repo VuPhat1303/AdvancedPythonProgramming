@@ -1,31 +1,33 @@
 body{
     font-family: var(--font-title);
     font-size: 16px;
-    width: 1855px;
-    height: 2800px;
-    margin: 0px  auto;
+    height: 3300px;
 }
 #menutop{
 
-    background: white;
-    height: 95px;
-    width: 1855px;
+    background:white;
+    height: 100px;
+    width: 100%;
     position: fixed;
+    top: 0%;
+
+    
 }
 #menutop #content{
     height: 70px;
-    width: 1855px;
+    width: 100%;
     display: flex;
-    justify-content: center;
 
-}
-#banner{
-    height: auto;
-    width: 1855px;
+    justify-content: center;
+    
+
 }
 #menutop ul{
     margin: 0px;
     padding: 0px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
 }
 #menutop ul li{
     list-style: none;
@@ -42,16 +44,19 @@ body{
 #menutop ul li img{
     height: 80px;
     width: auto;
-    
+    max-width: 100%;
+
 }
-#banner img{
-    height: auto;
-    width: auto;
+#banner img {
+    background-color: #71122a;
+    height: 0%;
+    
+
 }
 #main #right{
     width: auto;
-    height: 250px;
-}
+    height: 150px;
+}   
 #main #right h1{
     font-family: var(--font-title);
     color: #a0112b;
@@ -59,28 +64,27 @@ body{
     font-size: 35px;
 }
 #boxbig {
-    width: 1855px;
-    height: 340px;
+    width: auto;
+    height: 400px;
     display: flex;
     text-align: center;
     align-items: center;
-    justify-content: center;   
+    justify-content: center;
 }
 
 #boxbig #boxsmall{
-    width: 1140px;
+    width: 900px;
     height: 280px;
     display: flex;
+    justify-content: center;
     text-align: center;
-    justify-content: center; 
+    
 }
 .box1{
-    width: 250px;
-    height: 250px;
+    width: 276px;
+    height: 280px;
     text-align: center;
     flex: content;
-    border-radius: 0px;
-    border-color: #a0112b;
 }
 .box2{
     width: 276px;
@@ -92,24 +96,14 @@ body{
     height: 280px;
     text-align: center;
 }
-
 #sanpham{
-    height: 400px;
-    width: 1855px;
+    height: auto;
+    width: auto;
 }
-#sanpham1 #sanpham2{
-    height: 70px;
-    width: 1855px;
-}
-#san-pham{
-    height: 200px;
-    width: 1855px;
-    display: flex;
-    justify-content: center;
-}
+
 #san-pham-content{
     height: 250px;
-    width: 1800px;
+    width: auto;
     display: flex;
     justify-content: center;
     
@@ -119,6 +113,8 @@ body{
     width: 250px;
     justify-content: center;
     text-align: center;
+
+    
 }
 #san-pham-content1 #content{
     width: 250px;
@@ -129,20 +125,23 @@ body{
     width: 250px;
     justify-content: center;
     text-align: center;
+
+
 }
 #san-pham-content3{
     height: 250px;
     width: 250px;
     justify-content: center;
     text-align: center;
+
+
 }
 #san-pham2{
     height: 290px;
-    width: 1855px;
+    width: auto;
 }
-#footer {
-    background-color: #a0112b;
-    height: 300px;
-    width: 1855px;
-    text-align: left;
+#footer{
+    height: 200px;
+    width: auto;
+    background-color: #71122a;
 }
