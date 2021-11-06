@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["CV1+8CI"]); }
+
+__d("UserSignalsClientImpressionEventFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(a,b,c,d,e,f){"use strict";a=b("getFalcoLogPolicy_DO_NOT_USE")("1968720");c=b("FalcoLoggerInternal").create("user_signals_client_impression_event",a);e.exports=c}),null);
+__d("GroupsCometPeopleRootSuccessQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="4458675580852973"}),null);
