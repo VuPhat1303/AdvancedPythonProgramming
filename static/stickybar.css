@@ -1,0 +1,73 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+header
+{
+    position:fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s;
+    padding: 40px 100px;
+    padding-top: 21px;
+    z-index: 100000;
+    font-weight: bold;
+
+}
+header .logo
+{
+    position: relative;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+header.sticky{
+    padding: 5px 100px;
+    background:#71122a;
+    border-bottom: 2px none;
+}
+header ul{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    position: relative;
+    list-style: none;
+
+}
+header ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+.banner
+{
+    position: relative;
+    width: 100%;
+    background: url("../hinh/5ting.jpg");
+}
+header.sticky .logo{
+    color:rgb(255, 255, 255);
+}
+header.sticky ul li a{
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
